@@ -1,0 +1,150 @@
+html {
+    scroll-behavior: smooth;
+}
+/*----------------------- Navigation -----------------------*/
+.navbar-toggler button{
+    background-color: #0a7bc1;
+}
+.navbar{
+    margin-left: 70px;
+    padding: 15px;
+}
+.navbar-logo img{
+    margin: 10px;
+    height: 60px;
+    width: 250px;
+}
+.btn-nav{
+    background-color: #d36d00;
+    border-radius: 30px;
+    color: white;
+}
+a:hover{
+    color: #d36d00;
+}
+button:hover{
+    color: #0f0f0f;
+}
+/*----------------------- Header -----------------------------*/
+header.masthead {
+    position: relative;
+    background: url("../img/Img1.jpg") no-repeat center center;
+    background-size: 80% 70%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+header.masthead h1{
+    color: #0a7bc1;
+}
+/*---------------------- Search ------------------------------*/
+div.search {
+    position: relative;
+    background: url("../img/Img2.jpg") no-repeat center center;
+    background-size: 80% 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+div.search h1{
+    color: #d36d00;
+}
+.searchform{
+    background-color: #0a7bc1;
+    border-radius: 25px;
+    padding: 10px;
+    width: 60%;
+}
+.dropdown button{
+    background-color: white;
+    color: #0a7bc1;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px 60px;
+    margin: 0px 30px;
+}
+.sbutton button{
+    margin: 15px;
+    background-color: #d36d00;
+    border-radius: 20px;
+}
+/*------------------------- Item List --------------------------*/
+section ul {
+    list-style: none;
+}
+section ul li {
+    width: 250px;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 15px;
+    color: #0a7bc1;
+    border: 3px solid #0a7bc1;
+    border-radius: 15px;
+}
+section h1{
+    margin: 50px 0px;
+    text-align: center;
+    color: #d36d00;
+}
+/*------------------------- Articles --------------------------*/
+section article{
+    margin: 15px 0px;
+}
+article h3{
+    color: #d36d00;
+}
+article p{
+    color: #0a7bc1;
+}
+.images-article img{
+    height: 250px;
+    width: 250px;
+}
+.article-img-One{
+    position: relative;
+    background: url("../img/Img3.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+}
+.article-img-Two{
+    position: relative;
+    background: url("../img/Img4.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+
+}
+.article-img-Three{
+    position: relative;
+    background: url("../img/Img5.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+}
+.article-img-Four{
+    position: relative;
+    background: url("../img/Img6.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+}
+.images-article a{
+    color: white;
+    background-color: #d36d00;
+    border-radius: 20px;
+}
+/*------------------------ Footer ----------------------------*/
+.social i{
+    color: #0a7bc1;
+    padding: 5px;
+}
+hr{
+    border: 1px solid #0a7bc1;
+}
+footer h3{
+    text-align: center;
+    color: #0a7bc1;
+}
